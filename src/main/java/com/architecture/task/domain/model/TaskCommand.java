@@ -7,6 +7,11 @@ import lombok.Getter;
 @Builder
 public class TaskCommand {
     private Long taskId;
-    private String body;
+    private String firstName;
+    private String lastName;
+    private String fullName;
     private String title;
+    private String family;
+    private String image;
+    private String imageUrl;
 }
